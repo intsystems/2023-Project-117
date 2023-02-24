@@ -30,7 +30,7 @@ Research publications
 ===============================
 1. Neural ODE :: https://arxiv.org/abs/1806.07366
 
-`Neural ODE <https://arxiv.org/abs/1806.07366>`
+`Neural ODE <https://arxiv.org/abs/1806.07366>`_.
 
 Presentations at conferences on the topic of research
 ================================================
