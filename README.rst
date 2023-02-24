@@ -28,7 +28,9 @@ When predicting complex time series that depend on exogenous external factors, i
 
 Research publications
 ===============================
-1. 
+1. Neural ODE :: https://arxiv.org/abs/1806.07366
+
+`Neural ODE <https://arxiv.org/abs/1806.07366>`
 
 Presentations at conferences on the topic of research
 ================================================
