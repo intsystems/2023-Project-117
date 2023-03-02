@@ -1,0 +1,235 @@
+\documentclass[12pt, twoside]{article}
+\usepackage{jmlda}
+\newcommand{\hdir}{.}
+
+\begin{document}
+
+\title
+    [Шаблон статьи для публикации] % краткое название; не нужно, если полное название влезает в~колонтитул
+    {Шаблон статьи для публикации в журнале <<Машинное обучение и анализ данных>>}
+\author
+    [И.\,О.~Автор] % список авторов (не более трех) для колонтитула; не нужен, если основной список влезает в колонтитул
+    {И.\,О.~Автор, И.\,О.~Соавтор, И.\,О.~Фамилия} % основной список авторов, выводимый в оглавление
+    [И.\,О.~Автор$^1$, И.\,О.~Соавтор$^2$, И.\,О.~Фамилия$^{1,2}$] % список авторов, выводимый в заголовок; не нужен, если он не отличается от основного
+\email
+    {author@site.ru; co-author@site.ru;  co-author@site.ru}
+\thanks
+    {Работа выполнена при
+     %частичной
+     финансовой поддержке РФФИ, проекты \No\ \No 00-00-00000 и 00-00-00001.}
+\organization
+    {$^1$Организация, адрес; $^2$Организация, адрес}
+\abstract
+    {Данный текст является шаблоном статьи, подаваемой для публикации в журнале <<Машинное обучение и анализ данных>>.
+
+    Аннотация описывает основную цель работы,
+    особенности предлагаемого подхода и~основные результаты.
+    Сведения, содержащиеся в заглавии статьи, не должны повторяться в тексте авторского резюме.
+    В аннотации не должно быть ссылок на литературу и, по возможности, формул.
+	
+	Также необходимо представить расширенную структурированную аннотацию на английском языке объемом 200--300 слов.	
+	Английская аннотация может не быть дословным переводом русского текста и должна быть написана хорошим английским языком.
+	
+	В титульном заголовке необходимо указать полный, официально принятый, переводной вариант названия организации.
+	Указывать нужно только ту часть названия, которая относится к понятию юридического лица,
+	не вписывая названий кафедры, лаборатории или другого структурного подразделения внутри организации.
+	Необходимо указать полный юридический адрес, или, как минимум, город и страну.
+ 	
+ 	При выборе ключевых слов основным критерием является их потенциальная ценность для выражения содержания документа или для его поиска.
+	В качестве ключевых слов могут использоваться термины из названия, аннотации, вступительной и заключительной части текста статьи.
+ 	При подборе ключевых слов рекомендуется использовать базовые термины вместе с более сложными, допускается использование повторов и синонимов.
+	Не рекомендуется использование слишком сложных слов, слов в кавычках, слов с запятыми.
+	По возможности следует применять слова в основной форме именительного падежа единственного числа.
+	Рекомендуемое количество ключевых слов~-- 5-7, количество слов внутри ключевой фразы~-- не более 3.
+	
+\bigskip
+\noindent
+\textbf{Ключевые слова}: \emph {ключевое слово; ключевое слово; еще ключевые слова, разделенные <<;>>}
+}
+
+\titleEng
+	[JMLDA paper template] % краткое название; не нужно, если полное название влезает в~колонтитул
+    {Machine Learning and Data Analysis journal paper template}
+\authorEng
+	[F.\,S.~Author] % список авторов (не более трех) для колонтитула; не нужен, если основной список влезает в колонтитул
+	{F.\,S.~Author, F.\,S.~Co-Author, and F.\,S.~Name} % основной список авторов, выводимый в оглавление
+    [F.\,S.~Author$^1$, F.\,S.~Co-Author$^2$, and F.\,S.~Name$^{1, 2}$] % список авторов, выводимый в заголовок; не нужен, если он не отличается от основного
+\thanksEng
+    {The research was
+     %partially
+    	 supported by the Russian Foundation for Basic Research (grants 00-00-0000 and 00-00-00001).
+    }
+\organizationEng
+    {$^1$Organization, address; $^2$Organization, address}
+\abstractEng
+    {This is the template of the paper submitted to the journal ``Machine Learning and Data Analysis''.
+		
+	\noindent
+	The title should be concise and informative. Titles are often used in information-retrieval systems. Avoid abbreviations and formulae where possible.
+	Please clearly indicate the last names and initials of each author and check that all names are accurately spelled. Present the authors' affiliation
+	addresses where the actual work was done.
+	Provide the full postal address of each affiliation, including the country name and, if available, the
+	e-mail address of each author.
+	Provide only institutional affiliation, department/division affiliation are not required.
+
+	\noindent
+	A concise and factual abstract is required.
+	The purpose of the abstract is to provide a summary~of the paper enabling the reader to decide whether or not to read the full text.
+    	The abstract should state briefly the purpose of the research, the principal results and major conclusions.
+    	An abstract is often presented separately from the article, so it must be able to stand alone.
+    	For this reason, References should be avoided, but if essential, then cite the author(s) and year(s).
+    	Also, non-standard or uncommon abbreviations should be avoided, but if essential they must be defined at their first mention in the abstract itself.
+    	The requirements on the size of the abstract is about 200--300 words.
+    	It should be provided in the next structured manner:
+	
+	\noindent
+	\textbf{Background}:	One paragraph about the problem, existent approaches and its limitations.
+	
+	\noindent
+	\textbf{Methods}: One paragraph about proposed method and its novelty.
+	
+	\noindent
+	\textbf{Results}: One paragraph about major properties of the proposed method and experiment results if applicable.
+	
+	\noindent
+	\textbf{Concluding Remarks}: One paragraph about the place of the proposed method among existent approaches.
+		
+	\noindent
+	Immediately after the abstract, provide 5-7 keywords, avoiding general and plural terms and multiple concepts (avoid, for example, ``and'', ``of'').
+	Use keywords that are specific and that reflect what is essential about the paper.
+	Use keywords from the abstract, introduction and conclusion.
+	These keywords will be used for indexing purposes.
+		
+	\noindent
+    	\textbf{Keywords}: \emph{keyword; keyword; more keywords, separated by ``;''}}
+
+%данные поля заполняются редакцией журнала
+\doi{10.21469/22233792}
+\receivedRus{01.01.2017}
+\receivedEng{January 01, 2017}
+
+\maketitle
+\linenumbers
+
+\section{Введение}
+После аннотации, но перед первым разделом,
+располагается введение, включающее в себя
+описание предметной области,
+обоснование актуальности задачи,
+краткий обзор известных результатов.
+
+\section{Название раздела}
+Данный документ демонстрирует оформление статьи,
+подаваемой в электронную систему подачи статей \url{http://jmlda.org/papers} для публикации в журнале <<Машинное обучение и анализ данных>>.
+Более подробные инструкции по~стилевому файлу \texttt{jmlda.sty} и~использованию издательской системы \LaTeXe\
+находятся в~документе \texttt{authors-guide.pdf}.
+Работу над статьёй удобно начинать с~правки \TeX-файла данного документа.
+
+Обращаем внимание, что данный документ должен быть сохранен в кодировке~\verb'UTF-8 without BOM'.
+Для смены кодировки рекомендуется пользоваться текстовыми редакторами \verb'Sublime Text' или \verb'Notepad++'.
+
+\paragraph{Название параграфа}
+Разделы и~параграфы, за исключением списков литературы, нумеруются.
+
+\section{Заключение}
+Желательно, чтобы этот раздел был, причём он не~должен дословно повторять аннотацию.
+Обычно здесь отмечают, каких результатов удалось добиться, какие проблемы остались открытыми.
+
+%%%% если имеется doi цитируемого источника, необходимо его указать, см. пример в \bibitem{article}
+%%%% DOI публикации, зарегистрированной в системе Crossref, можно получить по адресу http://www.crossref.org/guestquery/
+\begin{thebibliography}{99}
+\bibitem{book}
+    \BibAuthor{Гуссенс~М., Миттельбах~Ф., Cамарин~А.}
+    \BibTitle{Путеводитель по пакету \LaTeX\ и~его расширению \LaTeXe} / Пер. с англ.~---
+    М.:~Мир, 1999. 606~с.
+    (\BibAuthor{Goossens M., Mittelbach F., Samarin A.}
+     \BibTitle{The \LaTeX\ companion}.~--- 2nd ed.~--- Reading, MA, USA: Addison-Wesley, 1994. 528 p.)
+
+\bibitem{article}
+    \BibAuthor{Загуренко~А.\,Г., Коротовских~В.\,А., Колесников~А.\,А., Тимонов~А.\,В., Кардымов~Д.\,В.}
+    Технико-экономическая оптимизация дизайна гидроразрыва пласта~//
+    \BibJournal{Нефтяное хозяйство}, 2008. Т.~11. \No\,1. С.~54--57.
+	\BibDoi{10.3114/S187007708007}.
+
+\bibitem{webArticle}
+	\BibAuthor{Blaga~P.\,A.}
+	Commutative Diagrams with XY-pic II. Frames and Matrices~//
+	\BibJournal{PracTEX J.}, 2007. Vol.\,4.
+	URL: \BibUrl{https://tug.org/pracjourn/2007-1/blaga/blaga.pdf}.
+
+\bibitem{webResource}
+	XYpic.
+	URL: \BibUrl{http://akagi.ms.u-tokyo.ac.jp/input9.pdf}.
+	
+\bibitem{inproceedingsRus}
+	\BibAuthor{Усманов~Т.\,С., Гусманов~А.\,А., Муллагалин~И.\,З., Мухаметшина~Р.\,Ю., Червякова~А.\,Н., Свешников~А.\,В.}
+	Особенности проектирования разработки месторождений с применением гидроразрыва пласта~//
+	\BibJournal{Труды 6-го Междунар. симп. <<Новые ресурсосберегающие технологии недропользования и повышения нефтегазоотдачи>>}.~---
+	М.:~Издательство, 2007. С.~267--272.
+
+\bibitem{inproceedingsEng}
+    \BibAuthor{Author~N.}
+    Paper title~//
+    \BibJournal{10th Conference (International) on Any Science Proceedings}.~---
+    Place of publication: Publisher, 2009. P.~111--122.
+
+\bibitem{techreport}
+	\BibAuthor{Lambert~P.}
+  	\BibTitle{The title of the work}.
+  	Place of publication:~The institution that published, 1993.  Report~2.
+ 	
+\end{thebibliography}
+
+%%%% если имеется doi цитируемого источника, необходимо его указать, см. пример в \bibitem{article}
+%%%% DOI публикации, зарегистрированной в системе Crossref, можно получить по адресу http://www.crossref.org/guestquery/.
+
+\maketitleSecondary
+\English
+\begin{thebibliography}{99}
+\bibitem{book}
+	\BibAuthor{Goossens,~M., F. Mittelbach, and A.~Samarin}. 1994.
+	\BibTitle{The \LaTeX\ companion}.
+	2nd ed.
+	Reading, MA: Addison-Wesley. 528 p.
+
+\bibitem{article}
+	\BibAuthor{Zagurenko,~A.\,G., V.\,A.~Korotovskikh, A.\,A.~Kolesnikov, A.\,V.~Timonov, and D.\,V.~Kardymon}. 2008.
+	Tekhniko-ekonomicheskaya optimizatsiya dizayna gidrorazryva plasta
+	[Technical and economic optimization of the design of hydraulic fracturing].
+	\BibJournal{Neftyanoe Khozyaystvo} [Oil Industry] 11(1):54--57.
+	\BibDoi{10.3114/S187007708007}. (In Russian)
+
+\bibitem{webArticle}
+	\BibAuthor{Blaga,~P.\,A.} 2007.
+	Commutative Diagrams with XY-pic II. Frames and Matrices.
+	\BibJournal{PracTEX J.}  4.
+	Available at: \BibUrl{https://tug.org/pracjourn/2007-1/blaga/blaga.pdf}
+    (accessed February 20, 2007).
+
+\bibitem{webResource}
+	XYpic.
+	Available at: \BibUrl{http://akagi.ms.u-tokyo.ac.jp/input9.pdf}
+	(accessed April 09, 2015).
+
+\bibitem{inproceedingsRus}
+	\BibAuthor{Usmanov,~T.\,S., A.\,A.~Gusmanov, I.\,Z.~Mullagalin, R.\,Yu.~Mukhametshina, A.\,N.~Chervyakova, and A.\,V.~Sveshnikov.} 2007.
+	Osobennosti proektirovaniya razrabotki mestorozhdeniy s primeneniem gidrorazryva plasta
+	[Features of the design of field development with the use of hydraulic fracturing].
+	\BibJournal{6th Symposium (International) ``New Energy Saving Subsoil Technologies and the
+	Increasing of the Oil and Gas Impact'' Proceedings}.
+	Moscow:~Publisher. 267--272. (In Russian)
+	   	
+\bibitem{inproceedingsEng}
+    \BibAuthor{Author,~N.} 2009.
+    Paper title.
+    \BibJournal{10th Conference (International) on Any Science Proceedings}.
+    Place of publication: Publisher. 111--122.
+	
+\bibitem{techreport}
+	\BibAuthor{Lambert,~P.} 1993.
+  	\BibTitle{The title of the work}.
+  	Place of publication:~The institution that published.  Report~2.
+  	     	
+\end{thebibliography}
+
+\end{document}

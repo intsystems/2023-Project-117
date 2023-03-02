@@ -120,3 +120,7 @@ logs/
 */mnist
 *.csv
 !.dvc
+
+./paper/jmlda/*
+./.ssh
+./.ssh.pub
