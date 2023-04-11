@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{Grabovoy2018}
+V.~V.~Strijov A.~V.~Grabovoy.
+\newblock Quasi-periodic time series clustering for human activity recognition.
+\newblock {\em
+  http://strijov.com/papers/Grabovoy2019QuasiPeriodicTimeSeries.pdf}, 2018.
+
+\bibitem{Kwapisz2010}
+J.~R. Kwapisz, G.~M. Weiss, and S.~A. Moore.
+\newblock “activity recognition using cell phone accelerometers,”.
+\newblock {\em Proceedings of the Fourth International Workshop on Knowledge
+  Discovery from Sensor Data}, 2010.
+
+\bibitem{dataset_mlru}
+machinelearning.ru.
+
+\bibitem{McCracken2014}
+James~M. McCracken and Robert~S. Weigel.
+\newblock Convergent cross-mapping and pairwise asymmetric inference.
+\newblock {\em Physical Review E}, 90(6), dec 2014.
+
+\bibitem{Seth2007}
+A.~Seth.
+\newblock {G}ranger causality.
+\newblock {\em Scholarpedia}, 2(7):1667, 2007.
+\newblock revision \#127333.
+
+\bibitem{takkens}
+Floris Takkens.
+\newblock Detecting strange attractors in turbulence.
+\newblock {\em Springer Lecture Notes in Mathematics vol 898, pp 366–81},
+  1981.
+
+\bibitem{SSA1997}
+Под редакцией Д.Л.Данилова~и
+  А.А.Жиглявского.
+\newblock Главные компоненты временных рядов:
+  метод "Гусеница".
+\newblock {\em Санкт-Петербургский университет},
+  1997.
+
+\bibitem{Usmanova2018}
+В.В.~Стрижов К.Р.~Усманова.
+\newblock МОДЕЛИ ОБНАРУЖЕНИЯ ЗАВИСИМОСТЕЙВО
+  ВРЕМЕННЫХ РЯДАХ В ЗАДАЧАХ
+  ПОСТРОЕНИЯПРОГНОСТИЧЕСКИХ МОДЕЛЕЙ.
+\newblock {\em «Системы и средства информатики»},
+  2018.
+
+\end{thebibliography}
