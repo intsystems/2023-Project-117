@@ -111,9 +111,10 @@ def train_with_epoch(net, dataloader,test_dataloader, epochs = 1, optim = None, 
             data = data.float().to(device)
             time = time.float().to(device)
             value = value.float().to(device)
-            
             x_s, h_s, internal_loss = net(data, time)
             x_value = x_s[-1]
+            # if any(torch.isnan(x_value.detach())) : raise ValueError("модель выдает nan")
+            
             l2_loss = l2_loss_f(x_value, value) + internal_loss
             loss = l2_loss
             optim.zero_grad()
