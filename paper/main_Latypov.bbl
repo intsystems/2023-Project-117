@@ -1,10 +1,45 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{Grabovoy2018}
+\bibitem{A.V.Grabovoy2018}
 V.~V.~Strijov A.~V.~Grabovoy.
 \newblock Quasi-periodic time series clustering for human activity recognition.
 \newblock {\em
   http://strijov.com/papers/Grabovoy2019QuasiPeriodicTimeSeries.pdf}, 2018.
+
+\bibitem{Averta2021}
+Giuseppe Averta, Federica Barontini, Vincenzo Catrambone, Sami Haddadin,
+  Giacomo Handjaras, Jeremia P~O Held, Tingli Hu, Eike Jakubowitz, Christoph~M
+  Kanzler, Johannes Kühn, Olivier Lambercy, Andrea Leo, Alina Obermeier,
+  Emiliano Ricciardi, Anne Schwarz, Gaetano Valenza, Antonio Bicchi, and Matteo
+  Bianchi.
+\newblock {U-Limb: A multi-modal, multi-center database on arm motion control
+  in healthy and post-stroke conditions}.
+\newblock {\em GigaScience}, 10(6), 06 2021.
+\newblock giab043.
+
+\bibitem{Camargo2021}
+Jonathan Camargo, Aditya Ramanathan, Will Flanagan, and Aaron Young.
+\newblock A comprehensive, open-source dataset of lower limb biomechanics in
+  multiple conditions of stairs, ramps, and level-ground ambulation and
+  transitions.
+\newblock {\em Journal of Biomechanics}, 119:110320, 2021.
+
+\bibitem{Chen2018}
+Ricky~TQ Chen, Yulia Rubanova, Jesse Bettencourt, and David~K Duvenaud.
+\newblock Neural ordinary differential equations.
+\newblock {\em Advances in neural information processing systems}, 31, 2018.
+
+\bibitem{Granger1980}
+C.W.J. Granger.
+\newblock Testing for causality: A personal viewpoint.
+\newblock {\em Journal of Economic Dynamics and Control}, 2:329--352, 1980.
+
+\bibitem{Higuchi1999}
+Tomoyuki Higuchi.
+\newblock Applications of quasi-periodic oscillation models to seasonal small
+  count time series.
+\newblock {\em Computational Statistics \& Data Analysis}, 30(3):281--301,
+  1999.
 
 \bibitem{Kwapisz2010}
 J.~R. Kwapisz, G.~M. Weiss, and S.~A. Moore.
@@ -12,25 +47,31 @@ J.~R. Kwapisz, G.~M. Weiss, and S.~A. Moore.
 \newblock {\em Proceedings of the Fourth International Workshop on Knowledge
   Discovery from Sensor Data}, 2010.
 
-\bibitem{dataset_mlru}
-machinelearning.ru.
-
 \bibitem{McCracken2014}
 James~M. McCracken and Robert~S. Weigel.
 \newblock Convergent cross-mapping and pairwise asymmetric inference.
 \newblock {\em Physical Review E}, 90(6), dec 2014.
 
-\bibitem{Seth2007}
-A.~Seth.
-\newblock {G}ranger causality.
-\newblock {\em Scholarpedia}, 2(7):1667, 2007.
-\newblock revision \#127333.
+\bibitem{Rubanova2019}
+Yulia Rubanova, Ricky T.~Q. Chen, and David Duvenaud.
+\newblock Latent odes for irregularly-sampled time series, 2019.
+
+\bibitem{Sugihara2012}
+George Sugihara, Robert May, Hao Ye, Chih hao Hsieh, Ethan Deyle, Michael
+  Fogarty, and Stephan Munch.
+\newblock Detecting causality in complex ecosystems.
+\newblock {\em Science}, 2012.
 
 \bibitem{takkens}
 Floris Takkens.
 \newblock Detecting strange attractors in turbulence.
 \newblock {\em Springer Lecture Notes in Mathematics vol 898, pp 366–81},
   1981.
+
+\bibitem{Yoo2009}
+Jae-Chern Yoo and Tae~Hee Han.
+\newblock Fast normalized cross-correlation.
+\newblock {\em Circuits, systems and signal processing}, 28:819--843, 2009.
 
 \bibitem{SSA1997}
 Под редакцией Д.Л.Данилова~и
